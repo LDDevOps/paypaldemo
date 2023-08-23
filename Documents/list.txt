@@ -1,0 +1,64 @@
+1 What is Shell?  
+	a shell-script is a collection of one or more commands in a file  a script is a file containing commands  
+
+
+2 How to check how many shells that Linux/Unix server will support?
+	cat /etc/shells
+
+
+
+3 What are the different shell types?
+	Boune Shell  (sh)
+	Boune Again Shell (bash)
+	csh / ksh / tsh / zsh  
+
+
+4 How many types of comments does shell script support?
+	Single Line comments 
+	Multi-line comments
+
+
+5 ****What are command line arguments?
+	An argument, also called command line argument, 
+	to process that input with the help of given command. 
+	Argument can be in the form of a file or directory. 
+	Arguments are entered in the terminal or console after entering command.
+
+	eg: Used to make commands dynamic;
+
+
+6 ****What is the difference between $* and $@ ?
+	
+
+7 Write down the syntax for if condition?
+	if (( conditions )) or if [       ]
+	then 
+	commands 
+	else  
+	commands  
+	fi
+	
+8  Write down the syntax for for-loop? 
+	for (( initiation;conditions;inc/dec ))
+	do 
+	commands 
+	commands 
+	done
+
+
+9	 Write down the syntax for function and write one function and call that function?
+
+		nameoffunction(){
+			commands
+			commands
+			commands
+		}	
+
+
+10 	 What is the difference between > and >> and < and what is the standard outputand 
+standard error codes?
+		
+
+		> replaces what is already in a file or represent greater than 
+		>> adds to what is already in a file
+		<                                    or  represent less than   
