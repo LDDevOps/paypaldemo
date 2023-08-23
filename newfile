@@ -1,0 +1,15 @@
+
+         git remote add aliasName repoURL = adds a repository. Eg, git remote add paypal https://github.com/landmarkss/paypal
+git 
+
+Step six: Push to the remote repository
+          git push aliasName(#name of repository) branchName  Eg; git push paypal master 
+
+
+
+working area        staging     localRepo     RemoteRepo[GitHub]    :
+  -----------        -------      ---------     ------------------  
+  Untracked files     git add     git commit    git push 
+    red                green     
+
+
