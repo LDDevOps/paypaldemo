@@ -597,3 +597,46 @@ known_hosts.old
 
 Maven / Tomcat / apache Webserver / SonarQube / Nexus / Jenkins :
 =================================================================
+
+
+ne: Create the file/ write Code in a file  #we are in the working area, files are red
+			vi or touch etc
+
+
+git status = shows the location of files 
+
+
+Step two: initialize an empty git repository    #we are in the working area, files are red
+        
+        git init = initialises an empty git repository and creates a default branch[master, main
+
+
+
+Step three: Add the file to the staging area     #we are in the staging are, files are green   
+        git add fileName = adds a single file  
+        git add . = adds all the files   
+        git add *  
+
+
+
+Step four:  Add files to the local repository => a verison of the app has been created
+        git commit -m 
+
+#you might need to configure. You should also add a good commit message.
+            
+            git log           = list all previous commits/(versions of the app) 
+
+
+
+
+Step five:  Connect to the remote repository
+         git remote -v = lists all the aliases I have Eg, 
+
+         git remote add aliasName repoURL = nicknames your repository 
+git 
+
+Step six: Push to the remote repository
+          git push aliasName(#name of repository) branchName  Eg; git push paypal master 
+
+
+
