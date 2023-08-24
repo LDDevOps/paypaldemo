@@ -13,3 +13,31 @@ working area        staging     localRepo     RemoteRepo[GitHub]    :
     red                green     
 
 
+hat is the difference between Git & Github:
+Git is an open source Distributed Version Control System(DVCS) which records
+changes made to files (codes) laying emphasis on speed, data integrity in a
+distributed non-linear workflows.  
+GitHub is a source code management[SCM] tool
+
+Explain your branching strategy in LandmakTechnology ?? 
+Explain your branching strategy in Dominion systems ??
+Explain your branching strategy in your Environment ?? 
+
+1. Number of branches = WE maintain 3 branches
+  dev branch    ---> develoment Environment
+  stage branch  ---> Testing/QA/UAT Environment
+  master branch ---> PRODUCTION 
+    feature 
+    bug_fixed 
+
+2. Branch security = 
+   All commits in the master branch must go through PR 
+
+3. Switching branches =  working tree should be clean 
+    DevOps Engineer [dev branch / master--bugfixed]
+    If neccesary backup incomplete tasks before switching  
+      git stash command  
+4. git rebase over git merge
+5. review changes [git diff] before merging
+6. Use PR before committing to the master branch 
+7. avoid merge conflicts  
