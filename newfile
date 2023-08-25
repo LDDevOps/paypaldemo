@@ -12,4 +12,13 @@ working area        staging     localRepo     RemoteRepo[GitHub]    :
   Untracked files     git add     git commit    git push 
     red                green     
 
+So I am testing how to merge changes in git
 
+How to merge changes in git:
+  git merge
+     sc1 [version1] -->sc2 [version2] --->sc3 [version3] 
+                   = mc1 [master version1]  
+  git rebase
+     sc1 [version1] -->sc2 [version2] --->sc3 [version3] 
+                   = mc1 [version1] -->mc2 [version2] --->mc3 [version3]               
+  git cherry-pick   = merging specific commits
